@@ -1,0 +1,22 @@
+2024-08-19 13:16:09,170 - INFO - Script started.
+2024-08-19 13:16:09,171 - INFO - starting ETL process...
+2024-08-19 13:16:09,173 - INFO - starts data extraction..
+2024-08-19 13:16:11,323 - INFO - html data downloaded..
+2024-08-19 13:16:16,614 - INFO - ALL rows are extracted
+2024-08-19 13:16:16,621 - INFO - started writing to csv...
+2024-08-19 13:16:21,457 - INFO - finished writing into csv.
+2024-08-19 13:16:21,464 - INFO - started writing to json...
+2024-08-19 13:16:27,525 - INFO - finished writing into json.
+2024-08-19 13:16:27,530 - INFO - Data Transformation started...
+2024-08-19 13:16:27,571 - INFO - Data Transformation done...
+2024-08-19 13:16:27,572 - INFO - Starting Data Loading..
+2024-08-19 13:16:27,573 - INFO - Loading data into PostgresDB
+2024-08-19 13:16:27,580 - INFO - Attempting to connect to the database for uploading data.
+2024-08-19 13:16:27,665 - INFO - Uploading data to table: universities
+2024-08-19 13:16:28,071 - INFO - Data uploaded successfully to universities.
+2024-08-19 13:16:28,074 - INFO - Data successfully loaded.
+2024-08-19 13:16:28,075 - INFO - Loading data into MysqlDB
+2024-08-19 13:16:28,091 - INFO - Attempting to connect to the database for uploading data.
+2024-08-19 13:16:28,301 - INFO - Uploading data to table: universities
+2024-08-19 13:16:32,412 - INFO - Data successfully loaded.
+2024-08-19 13:16:32,414 - INFO - ETL process done!

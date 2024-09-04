@@ -1,0 +1,22 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+  Mysqldb:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: olabanji
+      MYSQL_DATABASE: wikipediaDB
+      MYSQL_USER: eniola
+      MYSQL_PASSWORD: abiola
+
+    volumes:
+      - Mysqldb-volume:/var/lib/mysql
+    ports:
+      - 3310:3306
+
+volumes:
+  Mysqldb-volume: {}
+  #volumes are storage separate from the container or external to it
+  #containers are ephemiral i.e it is possible for it to be killed and stopped

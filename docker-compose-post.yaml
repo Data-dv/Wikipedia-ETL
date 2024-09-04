@@ -1,0 +1,48 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: ola-user
+      POSTGRES_PASSWORD: olabanji
+      POSTGRES_DB: amdariDB
+    networks:
+      - my-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ola-user -d amdariDB"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    ports:
+      - 5435:5432
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+  metabase:
+    image: metabase/metabase:latest
+    ports:
+      - "3000:3000"
+    networks:
+      - my-network
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: abiolaeniola2001@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: maranatha2001
+    ports:
+      - "8080:80"
+    networks:
+      - my-network
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  postgres-data: {}
+networks:
+  my-network:
