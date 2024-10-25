@@ -75,5 +75,18 @@ We chose this architecture for its simplicity and efficiency. Given the nature o
 
 ## Getting Started
 ## Running Without Docker
-- Make sure you have Pgadmin and Postgres on your PC.
-- Clone the repository.
+1. Make sure you have Pgadmin and Postgres on your PC.
+2. Clone the repository.
+```bash
+git clone https://github.com/Data-dv/Wikipedia-ETL.git
+```
+After cloning the repo, edit the .env_file, rename it to .env, and store your login credentials there.
+3. Install required dependencies.
+```bash
+pip install -r requirements.txt
+```
+4. Run the script in the CLI to extract, transform, and load the data into the database.
+   ```bash
+   python ETL.py
+   ```
+5. You can then perform your analysis in Pgadmin. You can also connect it to any database system you have on your PC. All you need to do is add the host, port, password, and default database name in the .env file.
