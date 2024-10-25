@@ -81,12 +81,52 @@ We chose this architecture for its simplicity and efficiency. Given the nature o
 git clone https://github.com/Data-dv/Wikipedia-ETL.git
 ```
 After cloning the repo, edit the .env_file, rename it to .env, and store your login credentials there.
+
 3. Install required dependencies.
 ```bash
 pip install -r requirements.txt
 ```
 4. Run the script in the CLI to extract, transform, and load the data into the database.
-   ```bash
-   python ETL.py
-   ```
+```bash
+python ETL.py
+```
 5. You can then perform your analysis in Pgadmin. You can also connect it to any database system you have on your PC. All you need to do is add the host, port, password, and default database name in the .env file.
+
+## Running With Docker
+This is the best way to enjoy what I built. This way, all systems are connected seamlessly. If you're on Windows, you can install Docker from [Docker Hub](https://docs.docker.com/get-started/get-docker/)
+1. Start Docker on your CLI.
+2. Clone the repository.
+```bash
+git clone https://github.com/Data-dv/Wikipedia-ETL.git
+```
+3. To address issues of conflicting ports, you can clear any running containers or change the port in the docker-compose.yaml files.
+4. open your cli, chnage to the directory you cloned in step 2, build the Docker images uisng the command.
+5. Connecting pgAdmin to Your PostgreSQL Database:
+    - Run the Server
+      - Start the server by running localhost:8080 in your browser.
+    - Sign in to pgAdmin
+      - Open pgAdmin and sign in with your credentials; check the docker compose file.
+    - Create a New Server
+      - Right-click on Servers.
+      - Click on Register and then Server.
+    - Enter Server Details
+      - Enter the server name (e.g., PGDATABASE).
+    - Configure Connection
+      - Go to the Connection tab.
+      - In the Host section, enter pgdatabase (as defined in your Docker Compose file).
+      - Enter your Username, Password, Port, and the default Database name.
+    - Finalize the Connection
+      - Click Save to connect pgAdmin to your PostgreSQL database.
+    - Access the Database
+      - Once connected, you will see the countries_db database already created.
+      - Open the countries_db database.
+    - Navigate to Schema
+      - Go to Schemas.
+      - Open the public schema.
+    - Access Tables
+      - Open Tables to see your table.
+    - Open Query Tool
+      - Right-click on the table and select Query Tool.
+      - Start writing your SQL queries to solve the analysis problem.
+
+## Dashboard Using Metabase
