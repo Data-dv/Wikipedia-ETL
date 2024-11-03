@@ -130,3 +130,4 @@ git clone https://github.com/Data-dv/Wikipedia-ETL.git
       - Start writing your SQL queries to solve the analysis problem.
 
 ## Dashboard Using Metabase
+### Image Analytics
