@@ -145,27 +145,25 @@ git clone https://github.com/Data-dv/Wikipedia-ETL.git
 
 ## Analytical Questions
 1. What are the largest universities by enrollment
-![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%205.png)
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/87865ea5058eca68a06e5159648b9bc77230945c/Images/image%205.png)
 
 2. What is the number of universities with enrollment less than 50,000?
-![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%206.png)
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/87865ea5058eca68a06e5159648b9bc77230945c/Images/image%206.png)
 
 3. What are the countries and unversities with enrollemt greater than 100k?
-![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%207.png)
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/87865ea5058eca68a06e5159648b9bc77230945c/Images/image%207.png)
 
 4. What is the number of universities funded privately?
-![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%208.png)
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/87865ea5058eca68a06e5159648b9bc77230945c/Images/image%208.png)
 
 5. What is the number of universities funded publicly?
-![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%209.png)
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/87865ea5058eca68a06e5159648b9bc77230945c/Images/image%209.png)
 
 6. What are the universities created before world war 1?
-![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%2010.png)
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/87865ea5058eca68a06e5159648b9bc77230945c/Images/image%2010.png)
 
 7. What are the universities created after world war 2?
-![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%2011.png)
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/87865ea5058eca68a06e5159648b9bc77230945c/Images/image%2011.png)
 
 8. What are the universities created between world war 1 and 2?
-![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%2012.png)
-
-
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/87865ea5058eca68a06e5159648b9bc77230945c/Images/image%2012.png)
