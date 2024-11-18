@@ -131,4 +131,41 @@ git clone https://github.com/Data-dv/Wikipedia-ETL.git
 
 ## Dashboard Using Metabase
 ### Image Analytics
-![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/4ee497590dbbb431bbc22b6b89471ea7f7d1230e/Images/Data%20Architecture.png)
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%201.png)
+
+
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%202.png)
+
+
+### Image Visuals
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%203.png)
+
+
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%204.png)
+
+## Analytical Questions
+1. What are the largest universities by enrollment
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%205.png)
+
+2. What is the number of universities with enrollment less than 50,000?
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%206.png)
+
+3. What are the countries and unversities with enrollemt greater than 100k?
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%207.png)
+
+4. What is the number of universities funded privately?
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%208.png)
+
+5. What is the number of universities funded publicly?
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%209.png)
+
+6. What are the universities created before world war 1?
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%2010.png)
+
+7. What are the universities created after world war 2?
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%2011.png)
+
+8. What are the universities created between world war 1 and 2?
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/37aba0e5eaecb33a3f03b3d2ed305d3814ccd1d5/Images/image%2012.png)
+
+
