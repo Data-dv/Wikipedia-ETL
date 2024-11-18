@@ -131,3 +131,4 @@ git clone https://github.com/Data-dv/Wikipedia-ETL.git
 
 ## Dashboard Using Metabase
 ### Image Analytics
+![Alt text](https://github.com/Data-dv/Wikipedia-ETL/blob/4ee497590dbbb431bbc22b6b89471ea7f7d1230e/Images/Data%20Architecture.png)
